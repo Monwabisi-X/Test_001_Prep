@@ -17,15 +17,6 @@ To get started with your own modifications, please follow these steps:
    cd repository-name
    ```
 
-## Rules for Students
-
-1. **Understand the Purpose**: Each function is designed to achieve a specific learning outcome. Make sure you understand what each function does before implementing or modifying it.
-2. **Follow the Function Signatures**: When implementing functions, adhere strictly to the provided signatures, including parameter types and return types.
-3. **Handle Edge Cases**: Always consider edge cases in your implementations. For example, how should your function behave with empty inputs or unexpected values?
-4. **Write Tests**: For every function you implement, write unit tests to validate its functionality. Use the provided test cases as a guide.
-5. **Document Your Code**: Ensure that your code is well-documented. Use docstrings to explain the purpose of each function, its parameters, and its return values.
-6. **Seek Help When Needed**: If you encounter difficulties, don’t hesitate to ask for help or consult additional resources.
-
 ## Functions Overview
 
 ### Learning Outcome: Functions
