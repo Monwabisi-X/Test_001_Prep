@@ -1,6 +1,6 @@
 import unittest
 import inspect
-from student_code import *
+from student_code_hard import *
 
 class TestUsingImports(unittest.TestCase):
     def test_using_imports(self):
