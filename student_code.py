@@ -254,3 +254,69 @@ def filter_even_numbers(nums: list[int]):
     list: A list containing only the even integers from the input list.
     """
     pass
+
+"""Learning Outcome: Simple Algorithms(Problem Solving)"""
+
+def find_median(nums: list[int]):
+    """
+    Find the median of a list of numbers.
+
+    Parameters:
+    nums (list[int]): A list of integers.
+
+    Returns:
+    float: The median value of the list.
+
+    Raises:
+    ValueError: If the list is empty.
+    """
+    pass
+
+def reverse_string(input: str):
+    """
+    Reverse the given string.
+
+    Parameters:
+    input (str): The string to be reversed.
+
+    Returns:
+    str: The reversed string.
+    """
+    pass
+
+def largest_number(nums: list[int]):
+    """
+    Find the largest number in a list.
+
+    Parameters:
+    nums (list[int]): A list of integers.
+
+    Returns:
+    int or None: The largest number in the list, or None if the list is empty.
+    """
+    pass
+
+def is_prime(n: int):
+    """
+    Check if a number is prime.
+
+    Parameters:
+    n (int): The number to check.
+
+    Returns:
+    bool: True if the number is prime, False otherwise.
+    """
+    pass
+
+def count_character_occurrences(word_sentence: str, char_count: str):
+    """
+    Count the occurrences of a character in a given sentence.
+
+    Parameters:
+    word_sentence (str): The sentence in which to count occurrences.
+    char_count (str): The character to count.
+
+    Returns:
+    int: The number of occurrences of the character in the sentence.
+    """
+    pass
