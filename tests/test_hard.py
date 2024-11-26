@@ -19,6 +19,7 @@ class TestPerformanceEvaluation(unittest.TestCase):
     def test_performance_evaluation_fail(self):
         if 'sum' in evaluate_performance.__code__.co_names or 'len' in evaluate_performance.__code__.co_names:
             self.fail("Function evaluate_perfomance should not use sum() or len().")
+        self.min_passing_grade = 75
         self.assertEqual(evaluate_performance([60, 70, 50], self.min_passing_grade), "Fail", "Performance evaluation failed for failing case.")
 
 
