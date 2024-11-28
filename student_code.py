@@ -12,7 +12,15 @@ def sum_of_squares(n: int):
     Raises:
     ValueError: If n is a negative integer.
     """
-    pass
+    sum_squares = 0
+    
+    if n < 0:
+        raise ValueError
+    
+    for i in range(0, n +1):
+        sum_squares += i ** 2
+        
+    return sum_squares
 
 def evaluate_performance(grades: list, min_pass: int):
     """
@@ -25,7 +33,16 @@ def evaluate_performance(grades: list, min_pass: int):
     Returns:
     str: "Pass" if the average grade is greater than or equal to min_pass, otherwise "Fail".
     """
-    pass
+    sum_grades = 0
+    
+    for i in grades:
+        sum_grades += i
+        
+    average = sum_grades / len(grades)
+    
+    if average >= min_pass:
+        return "Pass"
+    else: return "Fail"
 
 def calculate_cumulative_performance(scores: dict):
     """
